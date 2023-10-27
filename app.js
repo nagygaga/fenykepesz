@@ -8,37 +8,15 @@ const products = [
     price: 119,
     colors: [
       {
-        code: "black",
+        code: "pink",
         img: "./img/orban1.png",
       },
       {
-        code: "darkblue",
+        code: "yellow",
         img: "./img/meszaros1.png",
       },
-    ],
-  },
-  {
-    id: 2,
-    title: "AUTUMN",
-    price: 149,
-    colors: [
       {
-        code: "lightgray",
-        img: "./img/orban2.png",
-      },
-      {
-        code: "green",
-        img: "./img/jmeszaros2.png",
-      },
-    ],
-  },
-  {
-    id: 3,
-    title: "WINTER",
-    price: 109,
-    colors: [
-      {
-        code: "lightgray",
+        code: "orange",
         img: "./img/orban3.png",
       },
       {
@@ -48,17 +26,71 @@ const products = [
     ],
   },
   {
+    id: 2,
+    title: "AUTUMN",
+    price: 149,
+    colors: [
+      {
+        code: "#eb6b00",
+        img: "./img/orban2.png",
+      },
+      {
+        code: "#8D0327",
+        img: "./img/jmeszaros2.png",
+      },
+      {
+        code: "#A66F2E",
+        img: "./img/orban3.png",
+      },
+      {
+        code: "#F2E1C3",
+        img: "./img/meszaros3.png",
+      },
+    ],
+  },
+  {
+    id: 3,
+    title: "WINTER",
+    price: 109,
+    colors: [
+      {
+        code: "#40505a",
+        img: "./img/orban3.png",
+      },
+      {
+        code: "#a3b5b2",
+        img: "./img/meszaros3.png",
+      },
+      {
+        code: "#4d2768",
+        img: "./img/orban4.png",
+      },
+      {
+        code: "#a8acce",
+        img: "./img/meszaros4.png",
+      },
+    ],
+  },
+  {
     id: 4,
     title: "SPRING",
     price: 129,
     colors: [
       {
-        code: "black",
+        code: "f0e9f0",
         img: "./img/orban4.png",
       },
       {
-        code: "lightgray",
+        code: "#b7426a",
         img: "./img/meszaros4.png",
+      },
+      {
+        code: "#327d8e",
+        img: "./img/orban3.png",
+      },
+      {
+        code: "#114060",
+        img: "./img/meszaros3.png",
       },
     ],
   },
