@@ -8,6 +8,8 @@
         href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"/>
+
     <title>NAVIS</title>
     
 </head>
@@ -132,44 +134,9 @@
                 <input type="text" placeholder="cvv" class="payInput sm">
             </div>
             <button class="close">Checkout!</button>
-            
-            
-            
+
         </div>
     </div>
-    <button class="show-modal">Show Modal</button>
-    <span class="overlay"></span>
-
-    <div class="modal-box">
-      <i class="fa-regular fa-circle-check"></i>
-      <h2>Completed</h2>
-      <h3>You have sucessfully downloaded all the source code files.</h3>
-
-      <div class="buttons">
-        <button class="close-btn">Ok, Close</button>
-        <button>Open File</button>
-      </div>
-    </div>
-  </section>
-
-  <script>
-    const section = document.querySelector("section"),
-      overlay = document.querySelector(".overlay"),
-      showBtn = document.querySelector(".show-modal"),
-      closeBtn = document.querySelector(".close-btn");
-
-    showBtn.addEventListener("click", () => section.classList.add("active"));
-
-    overlay.addEventListener("click", () =>
-      section.classList.remove("active")
-    );
-
-    closeBtn.addEventListener("click", () =>
-      section.classList.remove("active")
-    );
-  </script>
-
-
 
     <div class="gallery">
         <div class="galleryItem">
