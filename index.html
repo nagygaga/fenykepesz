@@ -32,7 +32,7 @@
             <div class="sliderItem">
                 <img src="./img/orban1.png" alt="" class="sliderImg">
                 <div class="sliderBg"></div>
-                <h1 class="sliderTitle">THE NEW</br>SUMMER</br> COLLECTION</h1>
+                <h2 class="sliderTitle">THE NEW</br>SUMMER</br> COLLECTION</h2>
                 
                 <a href="#product">
                     <button class="buyButton">VIEW IT</button>
@@ -41,7 +41,7 @@
             <div class="sliderItem">
                 <img src="./img/orban2.png" alt="" class="sliderImg">
                 <div class="sliderBg"></div>
-                <h1 class="sliderTitle">THE NEW</br>AUTUMN</br> COLLECTION</h1>
+                <h2 class="sliderTitle">THE NEW</br>AUTUMN</br> COLLECTION</h2>
                 
                 <a href="#product">
                     <button class="buyButton">VIEW IT</button>
@@ -50,7 +50,7 @@
             <div class="sliderItem">
                 <img src="./img/orban3.png" alt="" class="sliderImg">
                 <div class="sliderBg"></div>
-                <h1 class="sliderTitle">THE NEW</br>WINTER</br> COLLECTION</h1>
+                <h2 class="sliderTitle">THE NEW</br>WINTER</br> COLLECTION</h2>
                 
                 <a href="#product">
                     <button class="buyButton">VIEW IT</button>
@@ -59,7 +59,7 @@
             <div class="sliderItem">
                 <img src="./img/orban4.png" alt="" class="sliderImg">
                 <div class="sliderBg"></div>
-                <h1 class="sliderTitle">THE NEW</br>SPRING</br> COLLECTION</h1>
+                <h2 class="sliderTitle">THE NEW</br>SPRING</br> COLLECTION</h2>
                 
                 <a href="#product">
                     <button class="buyButton">VIEW IT</button>
@@ -94,7 +94,7 @@
     <div class="product" id="product">
         <img src="./img/orban1.png" alt="" class="productImg">
         <div class="productDetails">
-            <h1 class="productTitle">SUMMER</h1>
+            <h2 class="productTitle">SUMMER</h2>
             <h2 class="productPrice">$199</h2>
             <p class="productDesc">Lorem ipsum dolor sit amet consectetur impal adipisicing elit. Alias assumenda
                 dolorum
@@ -113,14 +113,14 @@
             <button class="productButton">BUY NOW!</button>
         </div>
         <div class="payment">
-            <h1 class="payTitle">Personal Information</h1>
+            <h2 class="payTitle">Personal Information</h2>
             <label>Name and Surname</label>
             <input type="text" placeholder="John Doe" class="payInput">
             <label>Phone Number</label>
             <input type="text" placeholder="+1 234 5678" class="payInput">
             <label>Address</label>
             <input type="text" placeholder="Elton St 21 22-145" class="payInput">
-            <h1 class="payTitle">Card Information</h1>
+            <h2 class="payTitle">Card Information</h2>
             <div class="cardIcons">
                 <img src="./img/visa.png" width="40" alt="" class="cardIcon">
                 <img src="./img/master.png" alt="" width="40" class="cardIcon">
@@ -131,23 +131,59 @@
                 <input type="text" placeholder="yyyy" class="payInput sm">
                 <input type="text" placeholder="cvv" class="payInput sm">
             </div>
-            <button class="payButton">Checkout!</button>
-            <span class="close">X</span>
+            <button class="close">Checkout!</button>
+            
+            
+            
         </div>
     </div>
+    <button class="show-modal">Show Modal</button>
+    <span class="overlay"></span>
+
+    <div class="modal-box">
+      <i class="fa-regular fa-circle-check"></i>
+      <h2>Completed</h2>
+      <h3>You have sucessfully downloaded all the source code files.</h3>
+
+      <div class="buttons">
+        <button class="close-btn">Ok, Close</button>
+        <button>Open File</button>
+      </div>
+    </div>
+  </section>
+
+  <script>
+    const section = document.querySelector("section"),
+      overlay = document.querySelector(".overlay"),
+      showBtn = document.querySelector(".show-modal"),
+      closeBtn = document.querySelector(".close-btn");
+
+    showBtn.addEventListener("click", () => section.classList.add("active"));
+
+    overlay.addEventListener("click", () =>
+      section.classList.remove("active")
+    );
+
+    closeBtn.addEventListener("click", () =>
+      section.classList.remove("active")
+    );
+  </script>
+
+
+
     <div class="gallery">
         <div class="galleryItem">
-            <h1 class="galleryTitle">Be Yourself!</h1>
+            <h2 class="galleryTitle">Be Yourself!</h1>
             <img src="img/meszaros3.png"
                 alt="" class="galleryImg">
         </div>
         <div class="galleryItem">
             <img src="img/meszaros3.png"
                 alt="" class="galleryImg">
-            <h1 class="galleryTitle">This is the First Day of Your New Life</h1>
+            <h2 class="galleryTitle">This is the First Day of Your New Life</h1>
         </div>
         <div class="galleryItem">
-            <h1 class="galleryTitle">Just Do it!</h1>
+            <h2 class="galleryTitle">Just Do it!</h1>
             <img src="img/meszaros3.png"
                 alt="" class="galleryImg">
         </div>
@@ -159,8 +195,8 @@
         </div>
         <div class="nsItem">
             <h3 class="nsTitleSm">WINTER NEW ARRIVALS</h3>
-            <h1 class="nsTitle">New Season</h1>
-            <h1 class="nsTitle">New Collection</h1>
+            <h2 class="nsTitle">New Season</h2>
+            <h2 class="nsTitle">New Collection</h2>
             <a href="#nav">
                 <button class="nsButton">CHOOSE YOUR STYLE</button>
             </a>
@@ -173,7 +209,7 @@
     <footer>
         <div class="footerLeft">
             <div class="footerMenu">
-                <h1 class="fMenuTitle">About Us</h1>
+                <h2 class="fMenuTitle">About Us</h2>
                 <ul class="fList">
                     <li class="fListItem">Company</li>
                     <li class="fListItem">Contact</li>
@@ -183,7 +219,7 @@
                 </ul>
             </div>
             <div class="footerMenu">
-                <h1 class="fMenuTitle">Useful Links</h1>
+                <h2 class="fMenuTitle">Useful Links</h2>
                 <ul class="fList">
                     <li class="fListItem">Support</li>
                     <li class="fListItem">Refund</li>
@@ -193,7 +229,7 @@
                 </ul>
             </div>
             <div class="footerMenu">
-                <h1 class="fMenuTitle">Products</h1>
+                <h2 class="fMenuTitle">Products</h2>
                 <ul class="fList">
                     <li class="fListItem">Air Force</li>
                     <li class="fListItem">Air Jordan</li>
@@ -205,14 +241,14 @@
         </div>
         <div class="footerRight">
             <div class="footerRightMenu">
-                <h1 class="fMenuTitle">Subscribe to our newsletter</h1>
+                <h2 class="fMenuTitle">Subscribe to our newsletter</h2>
                 <div class="fMail">
                     <input type="text" placeholder="your@email.com" class="fInput">
                     <button class="fButton">Join!</button>
                 </div>
             </div>
             <div class="footerRightMenu">
-                <h1 class="fMenuTitle">Follow Us</h1>
+                <h2 class="fMenuTitle">Follow Us</h2>
                 <div class="fIcons">
                     <img src="./img/facebook.png" alt="" class="fIcon">
                     <img src="./img/twitter.png" alt="" class="fIcon">
