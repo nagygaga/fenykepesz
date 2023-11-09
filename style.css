@@ -72,6 +72,7 @@ nav {
 
 .sliderItem {
   width: 100vw;
+  height: 500px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -176,7 +177,7 @@ nav {
 }
 
 .product {
-  height: 100vh;
+  height: 80vh;
   background-color: whitesmoke;
   position: relative;
   clip-path: polygon(0 15%, 100% 0, 100% 100%, 0% 100%);
@@ -261,8 +262,9 @@ label {
 
 
 .productImg {
-  margin-top: 150px;
-  width: 50%;
+  margin-top: 250px;
+  margin-left: 30%;
+  width: 20%;
 }
 
 .productDetails {
@@ -484,8 +486,10 @@ footer {
   }
 
   .productImg{
-    width: 80%;
+    width: 100%;
+    margin-left: 0%;
   }
+  
 
   .productDetails{
     width: 100%;

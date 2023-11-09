@@ -9,19 +9,15 @@ const products = [
     colors: [
       {
         code: "pink",
-        img: "./img/orban1.png",
+        img: "./img/nyar.jpg",
       },
       {
         code: "yellow",
-        img: "./img/meszaros1.png",
+        img: "./img/nyar1.jpg",
       },
       {
         code: "orange",
-        img: "./img/orban3.png",
-      },
-      {
-        code: "green",
-        img: "./img/meszaros3.png",
+        img: "./img/nyar2.jpg",
       },
     ],
   },
@@ -32,19 +28,15 @@ const products = [
     colors: [
       {
         code: "#eb6b00",
-        img: "./img/orban2.png",
+        img: "./img/osz.jpg",
       },
       {
         code: "#8D0327",
-        img: "./img/jmeszaros2.png",
+        img: "./img/osz1.jpg",
       },
       {
         code: "#A66F2E",
-        img: "./img/orban3.png",
-      },
-      {
-        code: "#F2E1C3",
-        img: "./img/meszaros3.png",
+        img: "./img/osz2.jpg",
       },
     ],
   },
@@ -55,19 +47,15 @@ const products = [
     colors: [
       {
         code: "#40505a",
-        img: "./img/orban3.png",
+        img: "./img/tel.jpg",
       },
       {
         code: "#a3b5b2",
-        img: "./img/meszaros3.png",
+        img: "./img/tel1.jpg",
       },
       {
         code: "#4d2768",
-        img: "./img/orban4.png",
-      },
-      {
-        code: "#a8acce",
-        img: "./img/meszaros4.png",
+        img: "./img/tel2.jpg",
       },
     ],
   },
@@ -78,19 +66,15 @@ const products = [
     colors: [
       {
         code: "f0e9f0",
-        img: "./img/orban4.png",
+        img: "./img/tavasz.jpg",
       },
       {
         code: "#b7426a",
-        img: "./img/meszaros4.png",
+        img: "./img/tavasz1.jpg",
       },
       {
         code: "#327d8e",
-        img: "./img/orban3.png",
-      },
-      {
-        code: "#114060",
-        img: "./img/meszaros3.png",
+        img: "./img/tavasz2.jpg",
       },
     ],
   },
